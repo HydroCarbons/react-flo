@@ -1,0 +1,85 @@
+body {
+  background-color: #212121;
+  color: #0091EF;
+  padding: 5px;
+}
+
+.handle {
+  margin: 2px;
+  padding: 10px;
+  width: 300px;
+  border: 2px solid #111;
+  background-color: #111;
+  color: #666;
+  border-radius: 16px;
+  box-shadow: 1px 5px 15px #333;
+}
+
+.main {
+  position: absolute;
+  z-index: 999;
+  height: 100vh;
+  width: 100vw;
+}
+
+.svgCanvas {
+  position: absolute;
+  x: 0px;
+  y: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.divTable{
+	display: table;
+	width: 100%;
+  height: 100%;
+}
+
+.divTableCellMain {
+	border: 0px solid #333;
+	display: table-cell;
+	padding: 3px 10px;
+  width: 100%;
+  vertical-align: center;
+}
+
+
+.Glyphicon {
+  font-size: 2em;
+}
+
+.divTableCell {
+	border: 0px solid #333;
+	display: table-cell;
+	padding: 3px 10px;
+  width: auto;
+  vertical-align: bottom;
+}
+
+.divTableCell :active {
+  color: red;
+}
+
+.divTableCell :hover {
+  animation:
+    pulse 2s infinite;
+}
+
+
+@keyframes pulse {
+  0% {
+    color: #0091EF;
+  }
+  100% {
+    color: red;
+  }
+}
+
+.svgLine {
+  color: green;
+}
+
+.svgLine :hover {
+  color: blue;
+}
