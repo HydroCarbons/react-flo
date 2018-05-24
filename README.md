@@ -2,7 +2,7 @@
 
 *React-Flo* is a React based visual node graph editor
 
-![Screenshot](https://github.com/HydroCarbons/react-flo/blob/master/doc/screenshot.png)
+![Screenshot](https://github.com/HydroCarbons/react-flo/blob/master/doc/screenshot2.png)
 
 ## Prepare
 1. **NodeJS**  
