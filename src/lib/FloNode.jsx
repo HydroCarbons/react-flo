@@ -13,6 +13,12 @@ export default class FloNode extends React.Component {
 			posx = (Math.floor(Math.random() * 5) + 1) * 25 + 50;
 			posy = (Math.floor(Math.random() * 5) + 1) * 25 + 50;
 
+    if(this.props.rect) {
+      var r = this.props.rect;
+      posx = r.x;
+      posy = r.y;
+    }
+
     this.state = {
 			id: this.props.id,
 
@@ -28,6 +34,10 @@ export default class FloNode extends React.Component {
     }
 		this.onControlledDrag = this.onControlledDrag.bind(this);
 		this.onControlledDragStop = this.onControlledDragStop.bind(this);
+  }
+
+  componentDidMount() {
+
   }
 
 	onControlledDrag(e, position) {
@@ -76,7 +86,7 @@ export default class FloNode extends React.Component {
         position={controlledPosition}
 				{...dragHandlers}
 				onDrag={this.onControlledDrag.bind(this)}
-        grid={[25, 25]}
+        grid={[5, 5]}
 				>
         <div id={this.state.id} className="handle" onClick={this.onClick.bind(this)}>
 					<div class="divTable">

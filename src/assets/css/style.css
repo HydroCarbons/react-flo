@@ -5,13 +5,13 @@ body {
 }
 
 .handle {
-  margin: 2px;
-  padding: 10px;
+  margin: 0px;
+  padding: 4px;
   width: 300px;
   border: 2px solid #111;
-  background-color: #111;
+  background-color: #3feed0;
   color: #666;
-  border-radius: 16px;
+  border-radius: 12px;
   box-shadow: 1px 5px 15px #333;
 }
 
@@ -34,6 +34,9 @@ body {
 	display: table;
 	width: 100%;
   height: 100%;
+  border: 2px solid #000;
+  background-color: #000;
+  border-radius: 8px;
 }
 
 .divTableCellMain {

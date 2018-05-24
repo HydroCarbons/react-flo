@@ -26,7 +26,7 @@ export class ExampleApp extends React.Component {
 
   render() {
     return <div>
-      <FloVisualizer fcbNode={this.addNode.bind(this)} connectorColor="#0091ef" connectorTension="0.6" />
+      <FloVisualizer fcbNode={this.addNode.bind(this)} connectorColor="#3feed0" connectorTension="0.6" />
     </div>;
   }
 }
