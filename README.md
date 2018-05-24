@@ -3,7 +3,7 @@
 *React-Flo* is a React based visual node graph editor
 
 ![Screenshot](https://github.com/HydroCarbons/react-flo/blob/master/doc/screenshot2.png)
-
+ 
 ## Prepare
 1. **NodeJS**  
 ``` https://nodejs.org/en/download/ ```
@@ -27,6 +27,8 @@
 ```
  http://localhost:8081
 ```
+
+3. Click "File>>" and post the contents of "https://github.com/HydroCarbons/react-flo/blob/master/doc/flo-graph.json" to Content input box and click "Upload" to render it in Flo.
 
 ## Production Environment
 
