@@ -1,15 +1,15 @@
 {
-  "name": "basic-react-boilerplate",
-  "version": "1.0.0",
-  "description": "Basic boilerplate with React, ReactBootstrap, Babel and Webpack",
+  "name": "react-flo",
+  "version": "1.0.2",
+  "description": "React Flo, a react based visual node graph editor.",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "watch": "webpack --watch",
     "build": "webpack --config webpack.prod.js"
   },
-  "keywords": [],
-  "author": "aditya",
-  "license": "MIT",
+  "keywords": ["graph", "nodes", "visual", "circuit", "react", "diagrams"],
+  "author": "Aditya F",
+  "license": "Apache 2.0",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
